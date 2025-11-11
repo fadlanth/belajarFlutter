@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "679130230941",
+    "project_id": "pinterest-app-a45df",
+    "storage_bucket": "pinterest-app-a45df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679130230941:android:1f3d8d4ec67336908f2474",
+        "android_client_info": {
+          "package_name": "com.flutter.pinterest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt4fqNe3qcMacukFNWI2i9KupbhivR0R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+name: flutter_pinterest_api
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # --- KOMBINASI VERSI YANG PASTI KOMPATIBEL ---
+  # Gunakan firebase_core versi baru agar fitur web lebih bagus
+  firebase_core: ^4.2.1
+  # firebase_auth versi baru yang kompatibel dengan firebase_core di atas
+  firebase_auth: ^6.1.2
+  # --- INI ADALAH KUNCI: Turunkan cloud_firestore ke versi lama ---
+  cloud_firestore: ^6.1.0 # Ini yang memecahkan masalah!
+  
+  # firebase_auth_web versi yang kompatibel
+  firebase_auth_web: ^6.1.0
+  
+  # --- Package Lainnya ---
+  flutter_staggered_grid_view: ^0.7.0
+  http: ^1.1.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  fluttertoast: ^9.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
